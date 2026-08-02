@@ -1,8 +1,12 @@
 aid: unmind
 name: Unmind
-description: 'Unmind is a company surfaced as a portfolio company of anthemis, eqt-ventures, sapphire-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthtech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Unmind is a workplace mental health platform that supports employees, develops leaders, and
+  strengthens organisational performance through therapy, coaching, manager training, crisis care,
+  an Employee Assistance Programme (EAP), wellbeing content, insights and assessments, and Nova,
+  an AI wellbeing coach. Customers include Uber, MLB, Samsung, British Airways, Diageo, and the
+  NHS. Unmind publishes no public developer API; api.unmind.com is a private Apollo GraphQL
+  backend serving its own apps.
 url: https://raw.githubusercontent.com/api-evangelist/unmind/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +16,29 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://images.prismic.io/unmind/aTGfB3NYClf9n1CM_unmind.png?auto=format,compress
 tags:
 - Company
 - Healthtech
+- Mental Health
+- Employee Wellbeing
+- EAP
+- Coaching
+- HR
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +48,28 @@ maintainers:
 common:
 - type: Website
   url: https://unmind.com/
+- type: Blog
+  url: https://unmind.com/blog
+- type: Support
+  url: https://support.unmind.com/en
+- type: Login
+  url: https://search.unmind.com/start
+- type: TermsOfService
+  url: https://unmind.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://unmind.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/unmind
+- type: TrustCenter
+  url: security/unmind-trust-center.yml
+- type: Compliance
+  url: https://trust.unmind.com/
+- type: DomainSecurity
+  url: security/unmind-domain-security.yml
+- type: LLMsTxt
+  url: llms/unmind-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.unmind.com/
+url: https://trust.unmind.com/
+platform: SafeBase
+certifications:
+- ISO 27001
+- Cyber Essentials
+- GDPR
+notes: >-
+  Unmind's SafeBase-powered Trust Center publishes its compliance posture (ISO/IEC 27001
+  certification, UK Cyber Essentials, GDPR) plus gated documents covering product security,
+  data security, AI governance (AI training data and bias, AI security), infrastructure (AWS),
+  and policies. The public security page states Unmind services are not subject to HIPAA but
+  that safeguards are consistent with HIPAA standards. Security contact published as
+  privacy@unmind.com.
+evidence:
+- source: https://trust.unmind.com/
+  keywords:
+  - iso 27001
+  - iso/iec 27001
+  - trust center
+  - gdpr
+  - cyber essentials
+- source: https://unmind.com/security
+  keywords:
+  - iso 27001
+  - cyber essentials
+  - gdpr
+  - certifications & compliance
